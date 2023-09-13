@@ -17,5 +17,7 @@ Apakšteksts <sub>hello</sub>
 Teksts virs vārda labajā puse <sup>hello</sup>
 
 ## Otrās nodarbības atziņas
- *rm -v !("filename")* - izdzēš visus failus, izņemot vienu, kuru vēlos atsāt
+ *rm -v !("filename") - izdzēš visus failus, izņemot vienu, kuru vēlos atsāt* vai rm -d -- *[!0-9].txt
+ * cp filename(fails, kuru gribu nokopēt) 2filename(jaunais nokopetais fails)*
+ * mv (faila nosaukums, kuru grib mainīt) (jaunais faila nosaukums)*
  
