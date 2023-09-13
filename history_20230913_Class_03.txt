@@ -1,0 +1,93 @@
+98a99,190
+>    99  ls -lt
+>   100  echo history
+>   101  history
+>   102* ls -lt *.txt 
+>   103  rmdir b.txt/
+>   104  ls -lt
+>   105  man rm
+>   106  rm b.text
+>   107  ls -lt
+>   108  man esc
+>   109  ls -lt
+>   110  man
+>   111  man rm
+>   112  man echo
+>   113  man ls
+>   114  rm *.txt !("history_20230913_Class_02.txt")
+>   115  ls -lt
+>   116  echo 12345 > a.txt
+>   117  ls -lt
+>   118  cp a.txt b.text
+>   119  ls -lt
+>   120  cat b.txt
+>   121  rm b.text
+>   122  ls -lt
+>   123  cp a.txt b.txt
+>   124  ls -lt
+>   125  cat b.txt
+>   126  cat a.txt
+>   127  mv a.txt c.txt
+>   128  ls -lt
+>   129  man mv
+>   130  mv ls -lt -d -- *[!0-9].txt
+>   131  ls -lt -d -- *[!0-9].txt
+>   132  mkdir DEF
+>   133  pwd
+>   134  ls
+>   135  mv hihi.dat ~/DEF/
+>   136  ls
+>   137  ls -lt DEF/
+>   138  mv b.txt ~/DEF/
+>   139  ls -lt DE/
+>   140  ls -lt DEF/
+>   141  ls
+>   142  mv DEF/b.txt DEF/b.exe 
+>   143  ls -lt DEF/
+>   144  ls -lt
+>   145  rmdir DEF/
+>   146  rm -r DEF/
+>   147  ls
+>   148  ls 
+>   149  where is ls
+>   150  whereis ls
+>   151  echo $PATH
+>   152  whereis ls
+>   153  ls -lt /bin/ls
+>   154  whereis ls
+>   155  cat /bin/ls
+>   156  ls -lt /bin/ls
+>   157  nano mana_komanda_1.sh
+>   158  ls -lt
+>   159  nano 
+>   160  chmod 754 mana_komanda_1.sh 
+>   161  ls -lt mana_komanda_1.sh 
+>   162  ls -lt
+>   163  ./mana_komanda_1.sh 
+>   164  echo $PATH
+>   165  pwd
+>   166  PATH=$PATH:~
+>   167  echo $PATH
+>   168  mana_komanda_1.sh 
+>   169  mkdir TEST
+>   170  cp mana_komanda_1.sh TEST/
+>   171  ls
+>   172  ls -lt TEST/
+>   173  PATH=$PATH:~/TEST
+>   174  echo $PATH
+>   175  nano TEST/mana_komanda_1.sh 
+>   176  ls
+>   177  history
+>   178  history mana_komanda_1.sh 
+>   179  cat mana_komanda_1.sh 
+>   180  history
+>   181  history 5
+>   182  history ls -lt
+>   183  history ls -lt ls -lt
+>   184  history 124
+>   185  history -124
+>   186  man history
+>   187  history mv a.txt c.txt
+>   188  ls
+>   189  diff history_20230913_Class_02.txt history_20230913_Class_03.txt 
+>   190  mv history > history_20230913_Class_03.txt 
