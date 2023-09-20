@@ -2,6 +2,6 @@
 git add .
 git config --global user.name dzenifera16
 git config --global user.email dzenifera12@gmail.com
-git commit -m "Class_$1"
+git commit -m "Class_$*"
 git pull 
 git push origin main
