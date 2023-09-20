@@ -1,0 +1,34 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  pwd
+    5  ls -lt
+    6  git clone https://github.com/dzenifera16/RTR105
+    7  ls -lt
+    8  git clone https://github.com/dzenifera16/RTR105
+    9  ls -lt
+   10  ls -lt RTR105
+   11  ls -lt
+   12  git clone https://github.com/dzenifera16/RTR105 RTR105_V1
+   13  ls -lt
+   14  rm RTR105_V1
+   15  rm -rf RTR105_V1
+   16  ls -lt
+   17  cd RTR105
+   18  ls -lt
+   19  cd .git
+   20  cat config
+   21  ls -lt
+   22  cd ..
+   23  ls -lt
+   24  nano git-upload
+   25  ls -lt
+   26  cat git-upload
+   27  chmod 754
+   28  chmod 754 git-upload
+   29  ls -lt
+   30  git-upload
+   31  ./git-upload 
+   32  ./git-upload
+   33  ./git-upload 
+   34  history > history_03.txt
