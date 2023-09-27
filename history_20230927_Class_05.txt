@@ -1,0 +1,118 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/dzenifera16/RTR105
+~/RTR105
+pwd
+cd /RTR105
+cd RTR105/
+pwd
+ls -lt
+mkdir Class_05
+pwd
+ls-lt
+ls -lt
+cat Class_05
+cd Class_05
+nano first.c
+ls -lt
+cat first.c
+gcc --version
+gcc first.c
+ls -lt
+cat first.c
+history
+./a.out 
+echo $?
+nano first.c 
+ls -lt
+gcc first.c -o first.out
+ls -lt
+echo $?
+./first.out
+echo $?
+ls -lt
+nano first.c
+diff a.out first.out
+ls -lt
+diff a.out first.out
+ls -lt
+echo $?
+nano first.c
+ls -lt
+cat first.c
+ls -lt
+cp first.c second.c
+ls -lt
+nano second.c 
+gcc second.c 
+nano second.c
+gcc second.c 
+nano second.c
+gcc second.c 
+nano second.c
+gcc second.c 
+ls -lt
+nano second.c
+gcc second.c 
+ls -lt
+./a.out
+nano second.c
+gcc second.c 
+ls -lt
+./a.out
+nano second.c
+gcc second.c 
+ls -lt
+./a.out
+cat a.out
+./a.out
+nano second.c
+gcc second.c 
+nano second.c 
+gcc second.c 
+ls -lt
+./a.out
+cat second.c 
+gcc -E second.c 
+gcc -E second.c > second.i
+ls -lt
+cat second.i
+gcc second.c -o second_from_c.out
+gcc second.i -o second_from_i.out
+ls -lt
+diff second_from_c.out second_from_i.out 
+gcc -S  second.c
+ls -lt
+cat second.s
+ls -lt
+gcc second.s -o second_from_s.out
+ls -lt
+diff second_from_c.out second_from_s.out 
+ls -lt
+gcc -c second.c 
+ls -lt
+cat second.o
+gcc -c second.c
+ls -lt
+gcc second.o -o second_from_o.out
+ls -lt
+diff second_from_c.out second_from_o.out 
+ls -lt
+gcc -Wall -save-temps second.c
+ls -lt
+cd ..
+pwd
+ls -lta
+nano .gitignore
+nano history
+ls -lt
+./git-upload 05 a
+nano git-upload 
+sl -lt
+ls -lt
+nano history
+ls -lt
+nano git-upload 
+chmod 754 history
+ls -lt
+history -a
