@@ -1,0 +1,83 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/dzenifera16/RTR105
+    4  ls -lt
+    5  cd RTR105
+    6  mkdir Class_07
+    7  cd Class_07
+    8  ls -lt
+    9  nano tasks Class_07.txt
+   10  ls -lt
+   11  nano tasks_Class_07.txt
+   12  nano printf_test
+   13  nano printf_test.c 
+   14  gcc printf_test.c 
+   15  ls -lt
+   16  ./a.out
+   17  nano scanf_test
+   18  nano scanf_test.c 
+   19  gcc scanf_test.c
+   20  gcc scanf_test.c 
+   21  nano scanf_test.c 
+   22  gcc scanf_test.c 
+   23  ls -lt
+   24  ./a.out
+   25  nano fflush_test.c
+   26  gcc fflush_test.c
+   27  ls -lt
+   28  ./a.out
+   29  ls -lt
+   30  ./a.out
+   31  nano fflush_test.c
+   32  gcc scanf_test.c -o scan.out
+   33  ls -lt
+   34  gcc printf_test.c -o print.out
+   35  ls-l t
+   36  ls -lt
+   37  ./print.out
+   38  ./a.out
+   39  gcc fflush_test.c -o flush.out
+   40  ./flush.out
+   41  nano printf_test.c 
+   42  nano example.txt
+   43  nano fflush_test.c 
+   44  nano fscanf_test.c
+   45  nano fscanf_test.c 
+   46  gcc fscanf_test.c -o fscanf.out
+   47  ./fscanf.out 
+   48  ls -lt
+   49  ./fscanf.out 
+   50  cat example.txt
+   51  cat myfile.txt
+   52  nano myfile.txt
+   53  nano fprinf_test.c
+   54  gcc fprinf_test.c -o fprinf.out
+   55  nano fprinf_test.c 
+   56  gcc fprinf_test.c -o printf.out
+   57  nano dialogs_test.c
+   58  gcc dialogs_test.c -o dial.out
+   59  nano dialogs_test.c 
+   60  gcc dialogs_test.c -o dial.out
+   61  nano dialogs_test.c 
+   62  gcc dialogs_test.c -o dial.out
+   63  nano dialogs_test.c 
+   64  gcc dialogs_test.c -dial.out
+   65  nano dialogs_test.c 
+   66  gcc dialogs_test.c -dial.out
+   67  nano dialogs_test.c 
+   68  gcc dialogs_test.c -o dial.out
+   69  ./dial.out
+   70  nano dialogs_test.c 
+   71  gcc dialogs_test.c -o dial.out
+   72  ./dial.out 
+   73  cd .
+   74  cd ./
+   75  cd 
+   76  cd RTR105/
+   77  ls -lt
+   78  git-upload
+   79  ./ git-upload 
+   80  ./git-upload 
+   81  ./git-upload
+   82  history
+   83  history > history_07
