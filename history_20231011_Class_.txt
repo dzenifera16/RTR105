@@ -1,0 +1,87 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/dzenifera16/RTR105
+ls -lt
+nano variables.c
+fg
+gcc variables.c 
+nano variables.c 
+gcc variables.c 
+./a.out
+nano variables.c 
+fg
+gcc variables.c 
+./a.out
+gcc variables.c 
+./a.out
+nanp variables.c 
+nano variables.c 
+gcc variables.c 
+./a.out
+nano variables.c 
+gcc variables.c 
+./a.out
+nano variables.c 
+gcc variables.c 
+./a.out
+nano cp variables.c operations.c
+cp variables.c operations.c
+nano operations.c 
+gcc variables.c 
+./a.out
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+./a.out
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+cp operations.c if.c
+nano if.c 
+gcc if.c
+nano if.c
+gcc if.c
+./a.out
+nano if.c
+gcc if.c
+./a.out
+nano if.c
+cp if.c while.c
+nano while.c
+gcc if.c
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+./a.out
+cp while.c for.c
+nano for.c
+gcc for.c 
+./a.out
+nano for.c
+gcc for.c 
+./a.out
+nano for.c 
+history -a
+cd..
+cd ..
+ls -la
+ls -lt
+cd
+cd ~
+cd RTR105/
+history
+history -a
