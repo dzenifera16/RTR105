@@ -1,0 +1,13 @@
+#include < stdio.h >  
+  
+int main()  
+{  
+    long long int a, b;  
+  
+    printf("Ievadi 2 skaitlus: \n");  
+    scanf("%lld %lld", &a, &b);  
+  
+    printf("Rezultats: %d\n",(a*b));  
+  
+    return 0;  
+}  
