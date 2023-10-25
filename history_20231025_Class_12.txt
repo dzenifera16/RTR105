@@ -1,0 +1,155 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/dzenifera16/RTR102
+git clone https://github.com/dzenifera16/RTR105
+cd RTR105
+mkdir Class_11_12
+nano foo.h
+nano foo.c
+main.c
+nano main.c
+gcc -o testprogram foo.o main.o
+gcc -Wall -c foo.c
+nano foo.h
+gcc -o testprogram foo.o main.o
+nano foo.c
+gcc -o testprogram foo.o main.o
+nano foo.h
+nano foo.c
+gcc -o testprogram foo.o main.o
+nano  foo.h
+nano foo.c
+gcc -o testprogram foo.o main.o
+gcc -Wall -c foo.c
+nano foo.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./main.c
+./testprogram
+nano main.c
+nano foo.c
+nano main.c
+nano foo.c
+gcc -Wall -c main.c
+ls -lt
+./testprogram
+gcc -o testprogram foo.o main.o
+./testprogram
+nano foo.c
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram
+nano main.c
+foo.c
+nano fo.c
+nano foo.c
+gcc -Wall -c main.c
+nano main.c
+nano foo.c
+ls -lt\
+nano main.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+gcc -Wall -c foo.c
+gcc -o testprogram foo.o main.o
+./testprogram
+nano fo.c
+fg
+nano foo.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram
+nano array.c
+gcc arrays.c -o a.out
+nano array.c -o a.out
+gcc array.c
+./a.out
+nano array.c
+gcc array.c
+./a.out
+nano array.c 
+nano arrays.c
+nano array.c
+gcc array.c
+./a.out
+nano array.c
+gcc array.c
+./a.out
+nano array.c 
+nano string.c
+gcc string.c
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+echo $?
+nano string.c 
+gcc string.c 
+gcc -Wall string.c 
+nano string.c 
+gcc -Wall string.c 
+gcc string.c 
+./a.out
+echo $?
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+fg
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+./a.out
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+gcc string.c 
+nano string.c 
+ls -lt
+history -a
+history class_12_11
+ls -lt
+history -a
