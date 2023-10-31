@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main() {
-char skaitlis1;
+char num1;
 
-printf("Uzrakstiet naturālu skaitli: ");
-scanf("%hhu", &skaitlis1);
+printf("Uzraksti naturālu skaitli: ");
+scanf("%hhu", &num1);
 
-printf("Skaitlis %hhu binārajā kodā ir: ", skaitlis1 );
+printf("Skaitlis %hhu binārajā kodā ir: ", num1 );
 for (int i = 7; i >= 0; i--) {
-    if ((skaitlis1 >> i) & 1){
+    if ((num1 >> i) & 1){
      printf("1");
     }
 
