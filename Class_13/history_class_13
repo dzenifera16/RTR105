@@ -1,0 +1,91 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/dzenifera16/RTR105
+    4  cd RTR105
+    5  mkdir Class_13
+    6  cd Class_13
+    7  nano fopen.c
+    8  ls -lt
+    9  cat fopen
+   10  cat fopen.c
+   11  nano fclose_test.c
+   12  ls -lt
+   13  rm fopen.c
+   14  ls -lt
+   15  nano fopen_test.c
+   16  ls -lt
+   17  gcc fopen_test.c 
+   18  ls -lt
+   19  cat a.out
+   20  ./a.out
+   21  ls -lt
+   22  cat myfile.txt
+   23  gcc fclose_test.c
+   24  ./a.out
+   25  ls -lt
+   26  cat myfile.txt
+   27  nano fclose.c
+   28  ls -lt
+   29  nano fclose_test.c
+   30  gcc fclose_test.c 
+   31  ./a.out
+   32  nano fprintf_test.c
+   33  gcc fprintf_test.c 
+   34  nano fprintf_test.c 
+   35  gcc fprintf_test.c 
+   36  nano fprintf_test.c 
+   37  nano fclose_test.c 
+   38  gcc fclose_test.c 
+   39  ./a.out 
+   40  echo $
+   41  echo $?
+   42  nano fprintf_test.c 
+   43  gcc fprintf_test.c 
+   44  ./a.out
+   45  ls -lt
+   46  nano fprintf_test.c 
+   47  cat myfile.txt
+   48  nano fscanf_test.c
+   49  gcc fscanf_test.c 
+   50  ./a.out
+   51  cat myfile.txt
+   52  nano fscanf_test.c 
+   53  gcc fscanf_test.c 
+   54  ./a.out
+   55  cat myfile.txt
+   56  nano fwrite_test.c
+   57  gcc fwrite_test.c
+   58  ./a.out
+   59  ls -lt
+   60  cat myfile.bin
+   61  gcc fwrite_test.c
+   62  ./a.out
+   63  cat myfile.bin
+   64  hexdump -C myfile.bin
+   65  nano fread_test.c
+   66  nano fprintf_test.c 
+   67  gcc fprintf_test.c 
+   68  nano fprintf_test.c 
+   69  gcc fprintf_test.c 
+   70  nano fprintf_test.c 
+   71  gcc fprintf_test.c 
+   72  nano fprintf_test.c 
+   73  gcc fprintf_test.c 
+   74  nano fprintf_test.c 
+   75  gcc fprintf_test.c 
+   76  nano fprintf_test.c 
+   77  gcc fprintf_test.c 
+   78  ./a.out
+   79  ls -lt
+   80  cat myfile.txt
+   81  nano fprintf_test.c nano fread_test.c 
+   82  ls -lt
+   83  nano fread_test.c
+   84  nano fprintf_test.c 
+   85  nano fwrite_test.c 
+   86  history class_13
+   87  cd..
+   88  ..cd
+   89  history -a
+   90  history class_13
+   91  history > history_class_13

@@ -1,0 +1,89 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/dzenifera16/RTR105
+cd RTR105
+mkdir Class_13
+cd Class_13
+nano fopen.c
+ls -lt
+cat fopen
+cat fopen.c
+nano fclose_test.c
+ls -lt
+rm fopen.c
+ls -lt
+nano fopen_test.c
+ls -lt
+gcc fopen_test.c 
+ls -lt
+cat a.out
+./a.out
+ls -lt
+cat myfile.txt
+gcc fclose_test.c
+./a.out
+ls -lt
+cat myfile.txt
+nano fclose.c
+ls -lt
+nano fclose_test.c
+gcc fclose_test.c 
+./a.out
+nano fprintf_test.c
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+nano fclose_test.c 
+gcc fclose_test.c 
+./a.out 
+echo $
+echo $?
+nano fprintf_test.c 
+gcc fprintf_test.c 
+./a.out
+ls -lt
+nano fprintf_test.c 
+cat myfile.txt
+nano fscanf_test.c
+gcc fscanf_test.c 
+./a.out
+cat myfile.txt
+nano fscanf_test.c 
+gcc fscanf_test.c 
+./a.out
+cat myfile.txt
+nano fwrite_test.c
+gcc fwrite_test.c
+./a.out
+ls -lt
+cat myfile.bin
+gcc fwrite_test.c
+./a.out
+cat myfile.bin
+hexdump -C myfile.bin
+nano fread_test.c
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+nano fprintf_test.c 
+gcc fprintf_test.c 
+./a.out
+ls -lt
+cat myfile.txt
+nano fprintf_test.c nano fread_test.c 
+ls -lt
+nano fread_test.c
+nano fprintf_test.c 
+nano fwrite_test.c 
+history class_13
+cd..
+..cd
+history -a
