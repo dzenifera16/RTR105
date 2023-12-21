@@ -34,3 +34,5 @@ printf ("Sakne atrodas pie x =%3f, jo sin(x) ir %3f\n", x , sin(x)-A);
 return 0;
     }
 
+//////////////////////////////
+
