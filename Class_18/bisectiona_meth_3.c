@@ -3,31 +3,40 @@
 #include <math.h>
 
 
-float modified_sin(float x, float A){
-    return sin(x)-A;
+float modified_cos(float x, float A){
+    return cos(x/2)-c;
 }
 
 void main(){
-    float a,x, delta_x, b ,y ,A;
-    a= 0;
-    b = 2*M_PI ;
-    printf("Cien. liet., ludzu, ievadi A vertibu sekojosam vienadojumam: cos(x/2)-A\n");
-    scanf("%f", &A);
-    x = a;
-    delta_x = 0.1;
-    printf("\tx\ty\n");
+    float a,b,c, x, delta_x,y , funkca, funkcb, funkcx;
+    int k = 0; 
+
+
+  
+    printf("Cien. liet., ludzu, ievadi vienādojuma sākuma robežas vērtību\n");
+    scanf("%f ", &b);
+    printf("Cien. liet., ludzu, ievadi vienādojuma beigu robežas vērtību.\n");
+    scanf("%f ", &a);
+    printf("Cien. liet., ludzu, ievadi vēlamo precizitāti (no 0 līdz 1):  \n");
+	scanf("%f",&delta_x);
+      printf("Cien. liet., ludzu, ievadi A vertibu sekojosam vienadojumam: cos(x/2)-A\n");
+    scanf("%f", &c);
+    if (c < cos(a) || c > cos(b)) {
+
+        printf("Ievadītie parametri nav derīgi intervālā [%.2f;%2.f],līdzarto ar šīm vērtībām nav iespējams aprēķināt f(x) = cos/2 .\n", a, b);
+
+        return 1;
+
+    }
     while(x<b)
     {
-        printf("%10.1f%10.1f\n",x, modified_sin(x,A));
+        printf("%10.1f%10.1f\n",x, modified_cos(x,A));
         x += delta_x;
     }
 
 }
 int fun(){
 
-float a = 0.01 , b=1.5*M_PI , x, delta_x=1.e-3/*0.001*/, funkca, funkcb, funkcx;
-int k = 0; 
-float A;
 printf("Cien. liet., ludzu, ievadi A vertibu sekojosam vienadojumam: sin(x)-A\n");
 scanf("%f", &A);
 
