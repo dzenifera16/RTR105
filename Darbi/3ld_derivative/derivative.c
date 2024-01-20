@@ -7,9 +7,9 @@ int main(){
 float a,b,x,delta_x;
 double y,y_an,y_an1,y1,y_an2,y2;
 
-FILE*deriv;
+FILE*derivative;
 
-deriv = fopen("derivative.dat", "w");
+derivative = fopen("derivative.dat", "w");
 	
 printf("Izvēlies funkcijas sākuma robežas vērtību a:\n");
 scanf("%f", &a);
@@ -32,6 +32,6 @@ while(x<b){
     fprintf(deriv,"%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n",x,y,y_an1,y1,y_an2,y2);
         x+=delta_x;
 	}
-fclose(deriv);
+fclose(derivative);
 }
 
