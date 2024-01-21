@@ -5,6 +5,8 @@ Izmantojot integrēšanas metodi, ir iespējams atrast laukma vērtību starp fu
 
 :paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://pages.github.com/).
 
+![image](https://github.com/dzenifera16/RTR105/assets/72212089/548babb3-0bb5-48ed-9e75-ec7711a6af8d)
+
 ```
 #include<stdio.h>
 #include<math.h>
