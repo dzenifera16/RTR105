@@ -50,7 +50,7 @@ double mans_cosinus(double x){
   printf(" \n");
   printf("                                  2 \n");
   printf("                               -x \n");
-  printf("Rekurences reizinātājs:   ____________ \n");
+  printf("Rekurences reizinātājs:     ____________ \n");
   printf("                            4(2*k)(2*k-1) \n");
 
 
