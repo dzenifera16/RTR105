@@ -38,13 +38,16 @@ int main() {
     char max = Input[length - 1];
     char min = Input[0];
 /////////////////////////////////////////
-
+printf("Sakārtota simbolu rinda: %s\n", Input);
  // Aprēķina vidējo vērtību
         int sum = 0;
     for (int i = 0; i < length; i++) {
         sum += Input[i];
+        
+        printf("%d. %c (%d) \n  ", i + 1, Input[i], (int)Input[i]);
     }
 
+        
     // Calculate the vid
     float vid = (float)sum / length;
     
@@ -83,10 +86,11 @@ double mediana;
 
 //////////////////////////////////////////////    
     
+    
 
   
     
-    printf("Sakārtota simbolu rinda: %s\n", Input);
+    
     printf("Mazākā ASCII vērtība: %c\n", min);
     printf("Lielākā asci vērtība: %c\n", max);
     printf("Vidējā vērtība: %.2f\n", vid);
