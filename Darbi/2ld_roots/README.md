@@ -1,11 +1,17 @@
 # :bat: 2.Laboratorijas darbs Dihotomijas metode. :bat:
 ## F(x) = cos(x/2)   
 1.Apskatam vai intervālā [a;b] (f(a)*f(b)>0) funkcija maina zīmi, kas nozīmē, ka ir vismaz viena sakne.
+
 2.Tiek meklēts vidus punkts starp abiem galapunktiem c=(a+b)/2
+
 3.Aprēķina funkcijas vērtību viduspunktā - f(c).
+
 4.Pārbauda kurā intervālā [a,c] vai [c,b] atrodas sakne, balstoties uz f(c) rezultātu.
-*Ja f(c) zīme ir vienāda ar f(a), tad sakne atrodas [c,b] intervālā.
+
+-Ja f(c) zīme ir vienāda ar f(a), tad sakne atrodas [c,b] intervālā.
+
 *Ja f(c) zīme ir vienāda ar f(b), tad sakne atrodas [a,c] intervālā.
+
 5.Atkārto visu procesu, kamēr intervāls kļūst salīdzinoši mazs.
 
 Dihotomijas metodi bieži izmanto skaitliskās analīzes un optimizācijas jautājumos, kur funkcijas saknes atrašana ir ļoti svarīga.
