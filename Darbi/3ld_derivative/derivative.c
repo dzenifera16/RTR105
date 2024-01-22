@@ -18,7 +18,7 @@ scanf("%f", &b);
 printf("Izvēlies funkcijas precizitātes vērtību dx:\n");
 scanf("%f", &delta_x);
 
-fprintf(deriv,"\tx\t\tf(x)\tf\'(x) analit.\tf\'(x) skaitl.\tf\'\'(x) analit.\tf\'\'(x) skaitl.\n");
+fprintf(derivative,"\tx\t\tf(x)\tf\'(x) analit.\tf\'(x) skaitl.\tf\'\'(x) analit.\tf\'\'(x) skaitl.\n");
 printf("\tx\t\tf(x)\tf\'(x) analit.\tf\'(x) skaitl.\tf\'\'(x) analit.\tf\'\'(x) skaitl.\n");
 x=a;
 while(x<b){
