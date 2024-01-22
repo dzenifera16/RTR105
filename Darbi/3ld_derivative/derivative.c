@@ -29,7 +29,7 @@ while(x<b){
     y2=((-1)*cos(x/2))/4;
     y_an2=(y_an-2*y+cos(x/2-delta_x))/pow(delta_x,2);
 	printf("%0.2f\t%4.2f\t%5.2f\t%13.2f\t%14.2f\t%13.2f\n",x,y,y_an1,y1,y_an2,y2);
-    fprintf(deriv,"%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n",x,y,y_an1,y1,y_an2,y2);
+    fprintf(derivative,"%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n",x,y,y_an1,y1,y_an2,y2);
         x+=delta_x;
 	}
 fclose(derivative);
