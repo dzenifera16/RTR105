@@ -3,7 +3,7 @@
 Šī programma izmanto Teilora rindas paplašinājumu, lai aprēķinātu cos(x/2). Šo kodu izmantojot, ir iespējams precīzi noskaidrot funkcijas n-tā locekļa vērtību un vienlaikus aprēķināt visu iepriekšējo locekļu summu, izmantojot rekurences reizinātāju. Tas nozīmē, ka programma ļauj pastāvīgi pētīt katru locekli, līdzarto nodrošinot iespēju izprast gan individuālās vērtības, gan to, kā tās uzkrājas kopā.
 
 
-:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://pages.github.com/).
+:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://github.com/dzenifera16/RTR105/blob/main/Darbi/1ld_series/cos2x.png).
 
 ```
 #include<stdio.h>
