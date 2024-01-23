@@ -3,7 +3,7 @@
 
 Izmantojot integrēšanas metodi, ir iespējams atrast laukma vērtību starp funkciju un x asi noteiktā funkcijas apgabalā [a,b], pielietojot taisnstūra metodi ,trapeču metodi un Simpsona metodi.
 
-:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://pages.github.com/).
+:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://github.com/dzenifera16/RTR105/blob/main/Darbi/4ld_integral/integral_4lab.png).
 
 ![image](https://github.com/dzenifera16/RTR105/assets/72212089/548babb3-0bb5-48ed-9e75-ec7711a6af8d)
 
