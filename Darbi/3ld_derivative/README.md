@@ -3,7 +3,9 @@
 
 Diferencēšanas metode tiek pielietota, lai iegūtu 1.kārtas un 2.kārtas atvasinājumu cos(x/2) funkcijai, izmantojot analītisko un skaitlisko formulu.
 
-:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://pages.github.com/).
+:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://github.com/dzenifera16/RTR105/blob/main/Darbi/3ld_derivative/3ld_deriv.png).
+
+Uz history diemžēl nevaru pielikt atsauksmi, jo strādāju uz windows ar Visual Studio code.
 
 ```
 #include<stdio.h>

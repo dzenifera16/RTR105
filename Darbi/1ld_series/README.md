@@ -5,6 +5,7 @@
 
 :paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://github.com/dzenifera16/RTR105/blob/main/Darbi/1ld_series/cos2x.png).
 
+Uz history diemžēl nevaru pielikt atsauksmi, jo strādāju uz windows ar Visual Studio code.
 ```
 #include<stdio.h>
 #include<math.h>

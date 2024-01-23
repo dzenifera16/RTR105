@@ -16,9 +16,9 @@
 
 Dihotomijas metodi bieži izmanto skaitliskās analīzes un optimizācijas jautājumos, kur funkcijas saknes atrašana ir ļoti svarīga.
 
-:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://pages.github.com/).
+:paperclip: Šeit var apskatīt [F(x)=cos(x/2) grafiku.](https://github.com/dzenifera16/RTR105/blob/main/Darbi/2ld_roots/2ld_roots_image.png).
 
-
+Uz history diemžēl nevaru pielikt atsauksmi, jo strādāju uz windows ar Visual Studio code.
 ```
 #include <stdio.h>
 #include <math.h>

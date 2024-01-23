@@ -7,6 +7,7 @@ Izmantojot integrēšanas metodi, ir iespējams atrast laukma vērtību starp fu
 
 ![image](https://github.com/dzenifera16/RTR105/assets/72212089/548babb3-0bb5-48ed-9e75-ec7711a6af8d)
 
+Uz history diemžēl nevaru pielikt atsauksmi, jo strādāju uz windows ar Visual Studio code.
 ```
 #include<stdio.h>
 #include<math.h>
