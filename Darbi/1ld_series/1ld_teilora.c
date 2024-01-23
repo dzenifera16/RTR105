@@ -4,6 +4,7 @@ double mans_cosinus(double x){
  double a, S;
  int k = 0;
 
+
  //printf("y=cos(%2.f)=%2f\n",x, y);
  
  a = pow(-1,k)*pow(x, 2*k)/(1.);
